@@ -18,6 +18,6 @@ python -m http.server 8001
 
 # GitHub pages integration 
 
-Slides can be readily be integrated with [GitHub pages](https://pages.github.com/) by hosting the files in a GitHub repositery and enabling the Pages in the Settings tab.
+Slides can be readily integrated with [GitHub pages](https://pages.github.com/) by hosting the files in a GitHub repositery and enabling the Pages in the Settings tab.
 
 See e.g. [https://glouppe.github.io/talk-template](https://glouppe.github.io/talk-template) for this deck. 
