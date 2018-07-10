@@ -16,8 +16,8 @@ python -m http.server 8001
 - Edit `talk.md` for making your slides.
 - Use [decktape](https://github.com/astefanutti/decktape) for exporting your slides to PDF.
 
-# GitHub pages integration 
+## Integration with GitHub pages
 
-Slides can be readily integrated with [GitHub pages](https://pages.github.com/) by hosting the files in a GitHub repositery and enabling the Pages in the Settings tab.
+Slides can be readily integrated with [GitHub pages](https://pages.github.com/) by hosting the files in a GitHub repositery and enabling Pages in the Settings tab.
 
 See e.g. [https://glouppe.github.io/talk-template](https://glouppe.github.io/talk-template) for this deck. 
