@@ -10,7 +10,7 @@ body {
 
 .footnote {
   position: absolute;
-  bottom: 1em;
+  bottom: 2em;
   font-size: 0.5em;
   opacity: 0.75;
   margin-left: -5.5em;
@@ -47,9 +47,6 @@ body {
 }
 
 .remark-slide-content {
-    /*
-    background-image: linear-gradient(135deg, transparent, rgba(0, 0, 0, 0.02) 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.05));
-    */
     font-size: 1.4em;
     border-top: solid 5px #20707e;
 }
@@ -105,6 +102,10 @@ strong {
 
 .katex {
     color: #1a7082;
+}
+
+.remark-code {
+    font-size: 8em;
 }
 
 ul > li, ol > li {
@@ -165,16 +166,6 @@ td {
 .pull-right {
     float: right;
     margin-left: 1em;
-}
-
-.gallery {
-    display: block;
-    text-align: center;
-}
-
-.gallery img {
-    width: 200px;
-    height: auto;
 }
 
 .caption {
