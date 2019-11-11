@@ -8,39 +8,8 @@ body {
     word-wrap: break-word;
 }
 
-.footnote {
-  position: absolute;
-  bottom: 2em;
-  font-size: 0.5em;
-  opacity: 0.75;
-  margin-left: -5.5em;
-}
 
-
-.footnote a{
-    color: #20707e;
-}
-
-.footnote:before {
-    content: "\2015\2015\2015";
-    display: block;
-}
-
-.red {
-    color: #d11a01;
-}
-
-.Q {
-    color: #009933;
-}
-
-.italic {
-    font-style: italic;
-}
-
-.bold {
-    font-weight: bold;
-}
+/* Remark ------------------------------------------------------------------- */
 
 .remark-container {
     background: #ddd;
@@ -59,9 +28,8 @@ body {
 }
 
 .remark-slide-content h2 {
-    color: #d11a01;
-    font-size: 1.5em;
-    font-weight: normal;
+    font-size: 1.1em;
+    font-weight: bold;
     margin: 0 0 .5em 0;
 }
 
@@ -76,8 +44,12 @@ body {
     bottom: 2em;
 }
 
-.smaller {
-    font-size: 1.2em;
+
+/* Styles ------------------------------------------------------------------- */
+
+.footnote:before {
+    content: "\2015\2015\2015";
+    display: block;
 }
 
 a {
@@ -87,6 +59,22 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.red {
+    color: #d11a01;
+}
+
+.Q {
+    color: #009933;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 em {
@@ -100,12 +88,21 @@ strong {
     font-weight: normal;
 }
 
+
+.smaller {
+    font-size: 1.2em;
+}
+
 .katex {
     color: #1a7082;
 }
 
+.black-slide  .katex {
+    color: white;
+}
+
 .remark-code {
-    font-size: 8em;
+    font-size: 0.8em;
 }
 
 ul > li, ol > li {
@@ -158,16 +155,6 @@ td {
     padding: 5px 8px;
 }
 
-.pull-left {
-    float: left;
-    margin-right: 1em;
-}
-
-.pull-right {
-    float: right;
-    margin-left: 1em;
-}
-
 .caption {
     display: block;
     text-align: center;
@@ -182,6 +169,60 @@ td {
 .stretch img {
     width: 100%;
     height: auto;
+}
+
+.footnote {
+  position: absolute;
+  bottom: 2em;
+  font-size: 0.5em;
+  opacity: 0.75;
+  margin-left: -5.5em;
+}
+
+.footnote a{
+    color: #0288d1; /*#20707e;*/
+}
+
+.inactive {
+    color: lightgray;
+}
+
+.exercise {
+    background-color: rgba(40,167,69,0.25);
+    border: 2px solid rgb(40,167,69);
+    border-radius: 5px;
+    width: 95%;
+    display: block;
+    padding: 1em;
+}
+
+.exercise:before {
+    content: "Exercise";
+    font-weight: bold;
+    display: block;
+}
+
+.alert {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 2px solid #f5c6cb;
+    border-radius: 5px;
+    width: 95%;
+    display: block;
+    padding: 1em;
+}
+
+
+/* Placement ---------------------------------------------------------------- */
+
+.pull-left {
+    float: left;
+    margin-right: 1em;
+}
+
+.pull-right {
+    float: right;
+    margin-left: 1em;
 }
 
 .width-5 * {
@@ -344,7 +385,8 @@ td {
     width: 200%;
 }
 
-/* Title slide */
+
+/* Specials ----------------------------------------------------------------- */
 
 .title-slide:after {
     content: '';
@@ -370,6 +412,12 @@ td {
 
 .black-slide {
     background-color: black;
+    color: white;
+    border-top: solid 0px;
+}
+
+.red-slide {
+    background-color: red;
     color: white;
     border-top: solid 0px;
 }

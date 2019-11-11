@@ -7,7 +7,7 @@ A Turing machine example
 
 <br><br>
 
-Prof. Gilles Louppe<br>
+Gilles Louppe<br>
 [g.louppe@uliege.be](mailto:g.louppe@uliege.be)
 
 ---
@@ -46,7 +46,11 @@ Following Hopcroft and Ullman (1979, p. 148), a (one-tape) Turing machine can be
 
 ---
 
-Next slide
+class: middle
+
+## Sub-title
+
+Lorem ipsum.
 
 .footnote[This is a footnote.]
 
