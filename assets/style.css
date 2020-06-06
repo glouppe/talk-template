@@ -171,6 +171,14 @@ td {
     height: auto;
 }
 
+.solid {
+  border-style: solid;
+}
+
+.dashed {
+  border-style: dashed;
+}
+
 .footnote {
   position: absolute;
   bottom: 2em;
