@@ -88,6 +88,9 @@ strong {
     font-weight: normal;
 }
 
+.highlight{ 
+    background-color: #FFFF00; 
+}
 
 .smaller {
     font-size: 1.2em;
