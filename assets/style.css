@@ -48,7 +48,7 @@ body {
 /* Styles ------------------------------------------------------------------- */
 
 .footnote:before {
-    content: "\2015\2015\2015";
+    content: "\2015";
     display: block;
 }
 
@@ -104,8 +104,8 @@ strong {
     color: white;
 }
 
-.remark-code {
-    font-size: 0.8em;
+.remark-code, .remark-inline-code {
+    font-size: 0.9em;
 }
 
 ul > li, ol > li {
@@ -411,7 +411,7 @@ td {
     display: inline-block;
 }
 
-.title-slide {
+.title-slide, .section {
     vertical-align: middle;
 }
 
